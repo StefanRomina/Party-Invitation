@@ -1,0 +1,439 @@
+body {
+  background-image: url("images/invite.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  -ms-background-size: cover;
+  /* Internet Explorer */
+  -webkit-background-size: cover;
+  /* Safari  */
+  -moz-background-size: cover;
+  /*  Mozilla */
+  -o-background-size: cover;
+  /* Opera  */
+  margin: 0;
+}
+
+#container {
+  position: relative;
+}
+
+.text-party {
+  top: 2.5rem;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  color: rgb(126, 173, 62);
+  font-family: Courgette;
+  font-size: 4rem;
+  letter-spacing: 1.5;
+}
+
+.partypic {
+  width: 100%;
+  height: 100%;
+}
+
+.pop {
+  font-size: 1rem;
+  text-align: left;
+  color: orange;
+}
+
+.footer {
+  position: absolute;
+  bottom: 1rem;
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  font-weight: normal;
+  font-family: Lobster;
+}
+
+h2 {
+  -ms-transform: rotate(12deg);
+  /* Internet Explorer */
+  -moz-transform: rotate(12deg);
+  /* Mozilla */
+  -webkit-transform: rotate(12deg);
+  /* Safari si Opera*/
+  -o-transform: rotate(12deg);
+  /* Opera */
+  transform: rotate(12deg);
+  padding: 3.8rem;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+#heart {
+  color: red;
+}
+
+#cool {
+  color: rgb(36, 164, 183);
+  font-style: italic;
+}
+
+.icon {
+  height: 2rem;
+}
+
+#myAnimation, #myAnimation2 {
+  position: absolute;
+}
+
+.imgr {
+  margin: 0 200px 0 0;
+}
+
+.imgl {
+  margin: 0 150px 0 100px;
+}
+
+/* Animation for butterflies */
+.butterfly1 {
+  position: absolute;
+  height: 70px;
+  -ms-animation-name: fly1;
+  -moz-animation-name: fly1;
+  -webkit-animation-name: fly1;
+  -o-animation-name: fly1;
+  animation-name: fly1;
+  -ms-animation-duration: 15s;
+  -moz-animation-duration: 15s;
+  -webkit-animation-duration: 15s;
+  -o-animation-duration: 15s;
+  animation-duration: 15s;
+  -ms-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes fly1 {
+
+  /*  Safari */
+  0% {
+    left: 0;
+    bottom: 100px;
+  }
+
+  10% {
+    left: 50px;
+    bottom: 200px;
+  }
+
+  10% {
+    left: 100px;
+    bottom: 300px;
+  }
+
+  15% {
+    left: 350px;
+    bottom: 500px;
+  }
+
+  20% {
+    left: 500px;
+    bottom: 700px;
+  }
+
+  20% {
+    left: 700px;
+    bottom: 900px;
+  }
+
+  40% {
+    left: 900px;
+    bottom: 1500px;
+  }
+
+  100% {
+    left: 1800px;
+    bottom: 2200px;
+  }
+}
+
+@keyframes fly1 {
+  0% {
+    left: 0;
+    bottom: 100px;
+  }
+
+  10% {
+    left: 50px;
+    bottom: 200px;
+  }
+
+  10% {
+    left: 100px;
+    bottom: 300px;
+  }
+
+  15% {
+    left: 350px;
+    bottom: 500px;
+  }
+
+  20% {
+    left: 500px;
+    bottom: 700px;
+  }
+
+  20% {
+    left: 700px;
+    bottom: 900px;
+  }
+
+  40% {
+    left: 900px;
+    bottom: 1500px;
+  }
+
+  100% {
+    left: 1800px;
+    bottom: 2200px;
+  }
+}
+
+.butterfly2 {
+  position: absolute;
+  height: 75px;
+  -ms-animation-name: fly2;
+  -moz-animation-name: fly2;
+  -webkit-animation-name: fly2;
+  -o-animation-name: fly2;
+  animation-name: fly2;
+  -ms-animation: fly2 15s infinte;
+  -moz-animation: fly2 15s infinite;
+  -webkit-animation: fly2 15s infinite;
+  -o-animation: fly2 15s infinite;
+  animation: fly2 15s infinite;
+  right: 200px;
+  -ms-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+
+@-webkit-keyframes fly2 {
+  from {
+    top: 800px;
+  }
+
+  to {
+    top: 0;
+  }
+}
+
+@keyframes fly2 {
+  from {
+    top: 800px;
+  }
+
+  to {
+    top: 0;
+  }
+}
+
+.butterfly3 {
+  position: absolute;
+  -ms-animation-name: fly3;
+  -moz-animation-name: fly3;
+  -webkit-animation-name: fly3;
+  -o-animation-name: fly3;
+  animation-name: fly3;
+  -ms-animation: fly3 15s infinte;
+  -moz-animation: fly3 15s infinite;
+  -webkit-animation: fly3 15s infinite;
+  -o-animation: fly3 15s infinite;
+  animation: fly3 15s infinite;
+  left: 100px;
+}
+
+.butterfly4 {
+  position: absolute;
+  animation-name: fly2;
+  animation: fly2 15s infinite;
+  left: 250px;
+}
+
+@-webkit-keyframes fly3 {
+  0% {
+    left: 20px;
+    bottom: 100px;
+  }
+
+  30% {
+    left: 100px;
+    bottom: 300px;
+  }
+
+  from {
+    -ms-transform: rotate(0deg);
+    /* Internet Explorer */
+    -moz-transform: rotate(0deg);
+    /* Mozilla */
+    -webkit-transform: rotate(0deg);
+    /* Safari si Opera*/
+    -o-transform: rotate(0deg);
+    /* Opera */
+    transform: rotate(0deg);
+  }
+
+  to {
+    -ms-transform: rotate(60deg);
+    /* Internet Explorer */
+    -moz-transform: rotate(60deg);
+    /* Mozilla */
+    -webkit-transform: rotate(60deg);
+    /* Safari si Opera*/
+    -o-transform: rotate(60deg);
+    /* Opera */
+    transform: rotate(60deg);
+  }
+
+  30% {
+    left: 300px;
+    bottom: 500px;
+  }
+
+  50% {
+    left: 500px;
+    bottom: 800px;
+  }
+
+  70% {
+    left: 800px;
+    bottom: 1000px;
+  }
+
+  100% {
+    left: 1200px;
+    bottom: 2500px;
+  }
+}
+
+@keyframes fly3 {
+  0% {
+    left: 20px;
+    bottom: 100px;
+  }
+
+  30% {
+    left: 100px;
+    bottom: 300px;
+  }
+
+  from {
+    -ms-transform: rotate(0deg);
+    /* Internet Explorer */
+    -moz-transform: rotate(0deg);
+    /* Mozilla */
+    -webkit-transform: rotate(0deg);
+    /* Safari si Opera*/
+    -o-transform: rotate(0deg);
+    /* Opera */
+    transform: rotate(0deg);
+  }
+
+  to {
+    -ms-transform: rotate(60deg);
+    /* Internet Explorer */
+    -moz-transform: rotate(60deg);
+    /* Mozilla */
+    -webkit-transform: rotate(60deg);
+    /* Safari si Opera*/
+    -o-transform: rotate(60deg);
+    /* Opera */
+    transform: rotate(60deg);
+  }
+
+  30% {
+    left: 300px;
+    bottom: 500px;
+  }
+
+  50% {
+    left: 500px;
+    bottom: 800px;
+  }
+
+  70% {
+    left: 800px;
+    bottom: 1000px;
+  }
+
+  100% {
+    left: 1200px;
+    bottom: 2500px;
+  }
+}
+
+.butterfly5 {
+  position: absolute;
+  -ms-animation-name: fly5;
+  -moz-animation-name: fly5;
+  -webkit-animation-name: fly5;
+  -o-animation-name: fly5;
+  animation-name: fly5;
+  -ms-animation: fly5 6s infinte;
+  -moz-animation: fly5 6s infinite;
+  -webkit-animation: fly5 6s infinite;
+  -o-animation: fly5 6s infinite;
+  animation: fly5 6s infinite;
+  top: 300px;
+}
+
+@-webkit-keyframes fly5 {
+  from {
+    right: 0;
+  }
+
+  to {
+    right: 1800px;
+  }
+}
+
+@keyframes fly5 {
+  from {
+    right: 0;
+  }
+
+  to {
+    right: 1800px;
+  }
+}
+
+.butterfly6 {
+  position: absolute;
+  animation-name: fly2;
+  animation: fly2 15s infinite;
+  left: 500px;
+}
+
+/*  Responsive design*/
+@media screen and (max-width: 1300px) {
+  .text-party {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .text-party {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .text-party {
+    font-size: 1rem;
+  }
+}
